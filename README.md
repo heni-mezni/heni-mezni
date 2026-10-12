@@ -2,11 +2,11 @@
 
 # Heni Mezni
 
-### Robotics &amp; Embedded Systems Engineer
+### Engineer in Electronic Systems and Communication Engineering
 
-**3D perception · LiDAR–IMU SLAM · ROS 2 · Autonomous systems**
+**Robotics · Embedded Systems · Connected Systems**
 
-Building robotics systems from sensor integration to real-world mapping and control.
+Interested in robotics and embedded systems, with experience spanning perception, control, connected devices, real-world mapping, and autonomous navigation.
 
 [Portfolio](https://heni-mezni.github.io/portfolio-heni-mezni/) · [LinkedIn](https://www.linkedin.com/in/heni-mezni-/) · [GitHub](https://github.com/heni-mezni) · [Email](mailto:henimezni01@gmail.com)
 
@@ -16,59 +16,66 @@ Building robotics systems from sensor integration to real-world mapping and cont
 
 ## Profile
 
-I am a robotics and embedded-systems engineer focused on perception, 3D mapping and autonomous systems. My work connects sensors, embedded computing and robotics software—from integrating LiDAR and IMUs on NVIDIA Jetson platforms to validating ROS 2 mapping and control pipelines in simulation and real environments.
+I am an Engineer in Electronic Systems and Communication Engineering with a particular interest in robotics and embedded systems.
 
-## Selected work
+## Selected projects and experience
 
-### 3D indoor mapping for an agricultural robot · Novel-Ti · 2026
+### 3D SLAM Optimization with Point-LIO and Unitree 4D LiDAR L2 · Novel-Ti · Feb–Jun 2026
 
-Developed a 3D mapping pipeline for Pluma, a mobile robot designed for poultry-house environments. Integrated a Unitree 4D LiDAR L2 and IMU with an NVIDIA Jetson Xavier NX running ROS 2; configured Point-LIO and validated a PCD map in a real environment.
+Designed an indoor 3D mapping system for an agricultural robot operating in poultry houses. Compared 3D SLAM methods and selected Point-LIO. Integrated the Unitree 4D LiDAR L2 and Point-LIO with ROS 2 on an NVIDIA Jetson Xavier NX, then tuned Point-LIO parameters for real-world operating conditions.
 
-[Project repository](https://github.com/heni-mezni/SLAM-Based-3D-indoor-mapping-system-using-Point-LIO-and-Unitree-4D-LiDAR-L2) · [Upstream Point-LIO ROS 2 project](https://github.com/dfloreaa/point_lio_ros2)
+[Project repository](https://github.com/heni-mezni/SLAM-Based-3D-indoor-mapping-system-using-Point-LIO-and-Unitree-4D-LiDAR-L2) · [Point-LIO ROS 2 project](https://github.com/dfloreaa/point_lio_ros2)
 
-### Gesture-controlled robotic arm · CRNS · 2025
+### SmartFleet Challenge: Cooperative Multi-Robot Delivery · IEEE TSYP 13 · Dec 2025
 
-Built a gesture-to-joint-control workflow for a Lynxmotion AL5D arm. Kinect v1 and MediaPipe provided body landmarks; an MLP mapped gestures to commands in ROS 2 Humble. The control stack was modeled and validated with URDF/Xacro, ros2_control, RViz2 and Gazebo Ignition.
+Designed a decentralized, distributed multi-robot system using ROS 2 services and actions. Implemented DCCBBA for task allocation and integrated Firebase for task injection.
+
+### Gesture-Based Robotic Arm Control · Digital Research Center of Sfax · Jul 2025
+
+Captured 3D arm and hand coordinates with Kinect v1 and MediaPipe. Integrated an MLP to map human gestures to joint commands in ROS 2 Humble. Configured the URDF/Xacro model, validated it in Gazebo Ignition 6, and tested it in RViz2.
 
 [Project repository](https://github.com/heni-mezni/Intelligent-control-of-AL5D-robotic-arm-with-ROS-2)
 
-### Autonomous mobile robot with Q-learning · ENET’Com · 2025
+### Autonomous Mobile Robot with Q-learning · ENET’Com · Jan–Apr 2025
 
-Developed a ROS 2 and Python decision-making pipeline for path following, then deployed it on NVIDIA Jetson Nano with ESP32-based motor control and camera input.
+Designed and assembled an autonomous mobile robot for Q-learning-based path following. Developed a ROS 2 package and Python nodes for communication and real-time decision-making. Integrated a Jetson Nano, ESP32, L298N motor driver, DC motors, and a Hikvision camera for robot control and visual tracking.
 
-### SmartFleet / DropX · IEEE RAS &amp; VTS Challenge
+### IEEE Region 8 Robot Championship · Malta · Nov 2024
 
-Designed a decentralized delivery-fleet simulation using DCCBBA for task allocation and A* for route planning, with ROS 2/DDS and V2V communication constraints in SUMO.
+Designed a teleoperated robot to complete competition missions and earned second place in the STEM Award.
 
-## Engineering toolkit
+### QR Code Detection and Acquisition Microservice · TELNET · Jul 2024
 
-- **Robotics:** ROS 2 (Humble, Dashing), ros2_control, URDF/Xacro, RViz2, Gazebo Ignition, rosbag2
-- **Mapping &amp; autonomy:** Point-LIO, 3D SLAM, LiDAR–IMU fusion, EKF, A*, Q-learning, CBBA/DCCBBA
-- **Perception &amp; learning:** OpenCV, MediaPipe, machine learning, reinforcement learning, MLP, pyzbar
-- **Embedded &amp; integration:** NVIDIA Jetson Xavier NX/Nano, Raspberry Pi 4, ESP32, Arduino, Unitree 4D LiDAR L2, Kinect v1
-- **Systems &amp; communication:** C++, Python, DDS, V2V/V2X, SUMO, Linux, HTTP/JSON, Flask, YAML, SSH
+Developed a QR code detection and decoding microservice with OpenCV and pyzbar on a Raspberry Pi 4. Managed HTTP/JSON exchanges, YAML configuration, and remote administration through SSH and MobaXterm.
 
-## Experience
+## Technical skills
 
-- **Final-year project — 3D SLAM &amp; embedded robotics**, Novel-Ti · Feb–Jun 2026
-- **Robotics &amp; AI Intern**, CRNS · Jun–Jul 2025
-- **End-of-year project — autonomous mobile robot**, ENET’Com · Jan–Apr 2025
-- **Embedded Systems &amp; Computer Vision Intern**, TELNET Holding · Jul 2024
+- **Programming:** Python, C++
+- **Robotics and middleware:** ROS 2, URDF/Xacro, RViz2, Gazebo Ignition, rosbag2
+- **SLAM and navigation:** Point-LIO, 3D SLAM, LiDAR–IMU sensor fusion, Extended Kalman Filter (EKF)
+- **AI and perception:** Machine learning, reinforcement learning (Q-learning), computer vision, OpenCV, MediaPipe, pyzbar, MLP
+- **Embedded systems and sensors:** NVIDIA Jetson Xavier NX and Nano, Raspberry Pi 4, ESP32, Arduino, Unitree 4D LiDAR L2, Kinect v1, L298N, DC motors, Hikvision camera
+- **Systems and integration:** ROS 2 services and actions, DCCBBA, Firebase, HTTP/JSON, YAML, SSH, MobaXterm
 
-## Education &amp; recognition
+## Education
 
-- **Engineering Degree in Electronic Communication Systems**, ENET’Com, Sfax · 2023–2026<br>
+- **Engineer in Electronic Systems and Communication Engineering**, ENET’Com, Sfax, Tunisia · 2023–2026<br>
   Specialization: Connected Systems
-- **Preparatory Cycle for Engineering Studies**, Faculty of Sciences of Sfax · 2021–2023
-- **3rd National Prize**, TSYP 13 Robotics Challenge · IEEE
-- **2nd National Prize**, Tunisia 2056 Challenge · TSYP 12
-- **2nd place**, STEM Activities Program Award · International robotics competition, Malta
-- **Scientific publication**, available on IEEE Xplore
-- Leadership: Media Lead, TSYP 12 · Competition Lead, TRSYP 2.0 Organizing Committee
+- **Preparatory Cycle for Engineering Studies**, Faculty of Sciences of Sfax (FSS), Tunisia · 2021–2023<br>
+  Successful completion of the National Entrance Examination for Engineering Schools, Physics–Chemistry (PC) track
+
+## Awards and responsibilities
+
+- Scientific paper published on IEEE Xplore
+- Third National Prize, Robotics Challenge · IEEE TSYP 13
+- Second National Prize, Tunisia 2056 Challenge · IEEE TSYP 12
+- Second place, STEM Award · IEEE Region 8 Robot Championship, Malta
+- Robotics Competition Manager, IEEE TRSYP 2.0 Organizing Committee
+- Media Lead, IEEE TSYP 12 Organizing Committee
 
 ## Languages
 
-Arabic (native) · English (fluent) · French (advanced)
+French (B2) · English (B2) · German (beginner)
 
 ---
 
